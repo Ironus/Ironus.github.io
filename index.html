@@ -13,13 +13,14 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins-->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $("#includedHeader").load("header.html");
+      });
+    </script>
   </head>
   <body>
-    <script>
-    $(function(){
-      $("#includedContent").load("header.html");
-    });
-    </script>
+    <div id="includedHeader"></div>
     Test2
   </body>
 </html>
