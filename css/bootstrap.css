@@ -4641,6 +4641,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
+  font: 0.9em, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #222;
   border-color: #080808;
 }
