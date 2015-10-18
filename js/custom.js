@@ -1,5 +1,3 @@
-<script>
-  $(function(){
-    $("#includedHeader").load("header.html");
-  });
-</script>
+$(function(){
+  $("#includedHeader").load("header.html");
+})(jQuery);
