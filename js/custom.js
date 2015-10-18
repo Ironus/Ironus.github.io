@@ -1,3 +1,3 @@
 $(function(){
-  $("#includedHeader").load("header.html");
+  $("#includedHeader").load("../header.html");
 })(jQuery);
