@@ -13,9 +13,13 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins-->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $("#includedHeader").load("../header.html");
+      });
+    </script>
   </head>
   <body>
-    <script src="js/custom.js"</script>
-    Test2
+    <div class="#includedHeader"></div>
   </body>
 </html>
