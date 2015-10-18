@@ -1,41 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ironus' projects site</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <hsead>
+    <title>Ironus' procets site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div id="header">
-      <div id="repositoryName">
-        <p class="pathTextBold">ironus.github.io</p>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="ironus.github.io">ironus.github.io</a>
       </div>
-      <div id="menuButtons">
-        <ul>
-          <li><a href="https://github.com/Ironus">GitHub Page</a></li>
-          <li><a href="">Finished Projects</a></li>
-          <li><a href="">Currently Working On</a></li>
-          <li><a href="http://test.test">About Me</a></li>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="github.com/Ironus">GitHub Page</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Finished projects <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">jmeter</a></li>
+              <li><a href="#">EJB</a></li>
+              <li><a href="#">Jasper Report</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Currently Working On <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">jmeter</a></li>
+              <li><a href="#">EJB</a></li>
+              <li><a href="#">Jasper Report</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About Me</a></li>
         </ul>
       </div>
-      <div id="hireRibbon">
-        <div id="hireButton">
-          <div id="hireText">Hire me</div>
-        </div>
-        <div id="hireArrow"></div>
-      </div>
-    </div>
-    <div id="mainBody">
-
-    </div>
-    <div id="footer">
-
-    </div>
+    </nav>
   </body>
 </html>
