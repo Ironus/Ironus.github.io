@@ -13,6 +13,20 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins-->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Circiful plugin -->
+    <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.circliful.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $('#htmlChart').circliful();
+        $('#cssChart').circliful();
+        $('#javascriptChart').circliful();
+        $('#phpChart').circliful();
+        $('#bootstrapChart').circliful();
+        $('#joomlaChart').circliful();
+      });
+    </script>
+    <!-- loading header file -->
     <script>
       $(function(){
       $("#includedHeader").load("header.html");
@@ -23,7 +37,7 @@
     <div id="includedHeader"></div>
     <div class="container">
       <div class="page-header">
-        <h1>My skills <small>under development</small></h1>
+        <h1>My skills</h1>
       </div>
       <div class="row">
         <div class="panel panel-default">
@@ -39,34 +53,46 @@
           <div class="panel-body">
             <div class="tab-content">
               <div class="tab-pane active" id="webDev">
-                <div class="col-md-4">
-                  <div class="jumbotron">
+                <div class="col-sm-4">
+                  <div class="jumbotron" style="padding:0.4em 0em 1em 0em">
                     <h2 class="text-center">HTML</h2>
+                    <div class="center-block" id="htmlChart" data-dimension="200" data-text="90%" data-info="Almost there!" data-width="15" data-fontsize="30" data-percent="90" data-fgcolor="#42ce4b" data-bgcolor="#eee" data-fill="#ddd" data-total="100" data-part="90"></div>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href=#>More info!</a></p>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="jumbotron">
+                <div class="col-sm-4">
+                  <div class="jumbotron" style="padding:0.4em 0em 1em 0em">
                     <h2 class="text-center">CSS</h2>
+                    <div class="center-block" id="cssChart" data-dimension="200" data-text="80%" data-info="Getting there!" data-width="15" data-fontsize="30" data-percent="80" data-fgcolor="#43cc83" data-bgcolor="#eee" data-fill="#ddd" data-total="100" data-part="80"></div>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href=#>More info!</a></p>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="jumbotron">
+                <div class="col-sm-4">
+                  <div class="jumbotron" style="padding:0.4em 0em 1em 0em">
                     <h2 class="text-center">Javascript</h2>
+                    <div class="center-block" id="javascriptChart" data-dimension="200" data-text="65%" data-info="On my way!" data-width="15" data-fontsize="30" data-percent="65" data-fgcolor="#43cca2" data-bgcolor="#eee" data-fill="#ddd" data-total="100" data-part="65"></div>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href=#>More info!</a></p>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="jumbotron">
+                <div class="col-sm-4">
+                  <div class="jumbotron" style="padding:0.4em 0em 1em 0em">
                     <h2 class="text-center">PHP</h2>
+                    <div class="center-block" id="phpChart" data-dimension="200" data-text="65%" data-info="On my way!" data-width="15" data-fontsize="30" data-percent="65" data-fgcolor="#43cca2" data-bgcolor="#eee" data-fill="#ddd" data-total="100" data-part="65"></div>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href=#>More info!</a></p>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="jumbotron">
+                <div class="col-sm-4">
+                  <div class="jumbotron" style="padding:0.4em 0em 1em 0em">
                     <h2 class="text-center">Bootstrap</h2>
+                    <div class="center-block" id="bootstrapChart" data-dimension="200" data-text="30%" data-info="Not yet!" data-width="15" data-fontsize="30" data-percent="30" data-fgcolor="#cc437e" data-bgcolor="#eee" data-fill="#ddd" data-total="100" data-part="30"></div>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href=#>More info!</a></p>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="jumbotron">
+                <div class="col-sm-4">
+                  <div class="jumbotron" style="padding:0.4em 0em 1em 0em">
                     <h2 class="text-center">Joomla!</h2>
+                    <div class="center-block" id="joomlaChart" data-dimension="200" data-text="50%" data-info="Right in the middle!" data-width="15" data-fontsize="30" data-percent="50" data-fgcolor="#4347cc" data-bgcolor="#eee" data-fill="#ddd" data-total="100" data-part="50"></div>
+                    <p class="text-center"><a class="btn btn-primary btn-lg" role="button" href=#>More info!</a></p>
                   </div>
                 </div>
               </div>
