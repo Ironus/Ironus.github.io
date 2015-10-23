@@ -13,6 +13,12 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins-->
     <script src="js/bootstrap.min.js"></script>
+    <!-- loading header file -->
+    <script>
+      $(function() {
+      $("#includedHeader").load("header.html");
+      });
+    </script>
     <!-- Circiful plugin -->
     <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.circliful.min.js"></script>
@@ -39,12 +45,6 @@
         $('#opencvChart').circliful();
         $('#photoshopChart').circliful();
         $('#gimpChart').circliful();
-      });
-    </script>
-    <!-- loading header file -->
-    <script>
-      $(function() {
-      $("#includedHeader").load("header.html");
       });
     </script>
   </head>
